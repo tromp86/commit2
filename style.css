@@ -1,0 +1,27 @@
+body, html {
+    height: 100%;
+    display: grid;
+    margin: 0;
+    overflow: hidden;  
+    background-repeat: no-repeat;
+    font-size: 50px;
+    scroll-behavior: smooth;
+    background: radial-gradient(circle at 170%, #333, #333 50%, #eee 75%, #333 75%);
+    background-size: 220% 220%;
+    animation: gradient 100s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+} 
+span { 
+    margin: auto;
+    color: #fff;
+}
